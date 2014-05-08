@@ -1,0 +1,33 @@
+/**
+ * Base
+ */
+
+.container {
+  @include container;
+}
+
+#phone-view {
+  @include span-columns(6);
+
+  .phone-base {
+    width: 100%;
+    display: block;
+    border: none;
+  }
+
+  .phone-body {
+    position: relative;
+  }
+}
+
+#component-view {
+  @include span-columns(6 omega);
+}
+
+#phone-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 11%;
+  right: 11%;
+}

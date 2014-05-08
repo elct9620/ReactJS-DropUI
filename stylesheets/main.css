@@ -547,3 +547,59 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/**
+ * Base
+ */
+/* line 5, ../sass/_base.scss */
+.container {
+  *zoom: 1;
+  max-width: 59em;
+  _width: 59em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 38, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 9, ../sass/_base.scss */
+#phone-view {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+/* line 12, ../sass/_base.scss */
+#phone-view .phone-base {
+  width: 100%;
+  display: block;
+  border: none;
+}
+/* line 18, ../sass/_base.scss */
+#phone-view .phone-body {
+  position: relative;
+}
+
+/* line 23, ../sass/_base.scss */
+#component-view {
+  width: 49.15254%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+}
+
+/* line 27, ../sass/_base.scss */
+#phone-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 11%;
+  right: 11%;
+}
