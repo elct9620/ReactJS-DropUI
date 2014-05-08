@@ -603,3 +603,11 @@ table {
   left: 11%;
   right: 11%;
 }
+
+/* line 35, ../sass/_base.scss */
+.component-container {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}

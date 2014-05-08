@@ -24,7 +24,12 @@
         <%= content_for?(:page_content) ? yield(:page_content) : yield %>
 
         <%= partial "analytics" if enable_analytics? %>
-        <%= bower_component "react/react.min.js" %>
+        <%= bower_component "react/react.js" %>
+        <%= load_mixin "container" %>
+        <%= load_mixin "ui_tool" %>
+        <%= load_component "phone" %>
+        <%= load_component "ui_button_tool" %>
+        <%= load_component "ui_button" %>
         <%= javascript_include_tag "app.js" %>
     </body>
 </html>
