@@ -1,0 +1,5 @@
+.sass-cache/
+.coffeescript-cache/
+.DS_Store
+bower_components/
+fire_app_log.txt
