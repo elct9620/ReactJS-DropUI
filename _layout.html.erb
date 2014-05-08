@@ -24,5 +24,7 @@
         <%= content_for?(:page_content) ? yield(:page_content) : yield %>
 
         <%= partial "analytics" if enable_analytics? %>
+        <%= bower_component "react/react.min.js" %>
+        <%= javascript_include_tag "app.js" %>
     </body>
 </html>
